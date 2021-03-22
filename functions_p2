@@ -1,0 +1,14 @@
+# Functions
+
+def hello(name):
+    greet = "Hi! " + name
+    print(greet)
+    print("asdsadasd")
+    return 50
+
+hello("Jonathan")
+
+# we could define in console, but it will take a long time. So we do "predefine"
+# there are side effects of functions if we declare some variable = hello("Jonathan"), it will return 50, not Hi!, Jonathan else
+
+
