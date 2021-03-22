@@ -1,0 +1,32 @@
+# function is a sequence of instructions that performs a specific task, packaged as an unit
+
+# functions are 1) reusable 2) flexible 3) modular
+# Calling the function means all the instruction steps inside the function definition will be executed
+
+def tip_amount(tip_percentage, total):
+  return (total * tip_percentage) + 5
+
+my_tips = tip_amount(0.15, 50)
+print(my_tips)
+
+# What best describes "tip_percentage" - parameter. while 0.15 here is the argument
+
+# *********************
+def area_rectangle(length, width):
+  print("The area is: " + str(length * width))
+
+my_rectangle = area_rectangle(4,5)
+
+# "The area is: 20" will be printed on screen. On the other hand, value of the variable my_rectangle is None.
+
+# *********************
+def four(num):
+    return 4 * num
+
+def five(num):
+    return 5 + four(num)
+
+num = 3
+print(five(num))
+
+# 17 will be printed on screen
